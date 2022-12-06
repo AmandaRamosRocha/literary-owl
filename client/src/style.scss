@@ -1,0 +1,84 @@
+
+.app{
+    display: flex;
+    justify-content: center;
+
+
+    .container{
+        width: 80%;
+        //LOGIN & REGISTER
+        .auth{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: rgb(84,101,160);
+            background: radial-gradient(circle, rgba(84,101,160,1) 0%, rgba(35,52,128,1) 100%);
+
+            h1{
+                font-size: 30px;
+                color: #320E3B;
+                margin-bottom: 2vh;
+            }
+    
+            form{
+                display: flex;
+                flex-direction: column;
+                padding: 25px;
+                background-color: #b4d0c186;
+                border-radius: 1.5rem;
+                width: 250px;
+                gap: 15px;
+    
+    
+                input{
+                    padding: 10px;
+                    border: none;
+                    border-bottom: 1px solid gray;
+                    border-radius: 1.5rem;
+                }
+    
+                button{
+                    padding: 10px;
+                    border: none;
+                    font-size: 18px;
+                    background-color: rgba(84, 100, 160, 0.747);
+                    cursor: pointer;
+                    border-radius: 1.5rem;
+                    color:#320E3B
+                }
+    
+                p{
+                    font-size: 13px;
+                    color: red;
+                    text-align: center;
+                }
+
+                span{
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+        
+        }
+           //NAVBAR
+
+        .navbar{
+            .container{
+                padding: 10px 0px;   
+                display: flex;
+                justify-content: space-between;
+
+                .logo{
+                    img{
+                        width: 20px;
+                    }
+                }
+                .links{
+
+                }
+            }
+        }
+    }
+}
