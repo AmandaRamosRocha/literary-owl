@@ -5,7 +5,12 @@
 
 
     .container{
-        width: 80%;
+        width: 90%;
+
+        .link{
+            text-decoration: none;
+            color: inherit;
+        }
         //LOGIN & REGISTER
         .auth{
             display: flex;
@@ -59,26 +64,63 @@
                     font-size: 12px;
                     text-align: center;
                 }
+                .logo{
+                    display: flex;
+                    justify-content: center;
+                    padding: 20px;
+                    img{
+                        width: 100px;
+                    }
+                }
             }
         
         }
-           //NAVBAR
+        //NAVBAR
 
         .navbar{
+            display: flex;
+            justify-content: center;
+            background: rgb(84,101,160);
             .container{
-                padding: 10px 0px;   
+                padding: 5px 0px;   
                 display: flex;
                 justify-content: space-between;
 
                 .logo{
+                    background-color: rgba(240, 248, 255, 0.623);
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
                     img{
-                        width: 20px;
+                        width: 50px;
                     }
                 }
                 .links{
-
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                .link{
+                    cursor: pointer;
+                }
+                h6{
+                    font-size: 16px;
+                    font-weight: 300;
                 }
             }
+        }
+        
+        //FOOTER
+        footer{
+            margin-top: 100px;
+            padding: 20px;
+            background-color: #000080;
+            display: flex;
+            justify-content: flex-end;
+            color: aliceblue;
+            font-family: monospace;
         }
     }
 }
