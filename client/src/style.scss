@@ -10,6 +10,7 @@
             text-decoration: none;
             color: inherit;
         }
+
         //LOGIN & REGISTER
         .auth{
             display: flex;
@@ -74,8 +75,8 @@
             }
         
         }
-        //NAVBAR
 
+        //NAVBAR
         .navbar{
             display: flex;
             justify-content: center;
@@ -138,6 +139,74 @@
             justify-content: flex-end;
             color: aliceblue;
             font-family: monospace;
+        }
+
+        //HOME
+        .home{
+
+            .posts{
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 150px;
+
+
+                .post{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 3vw;
+                    padding: 0px 3vw;
+
+                    &:nth-child(2n+1){
+                        flex-direction: row-reverse;
+                        align-items: center;
+                    }
+
+                    .img{
+                        flex: 1;
+
+                        img{
+                            width: 100%;
+                            max-height: 500px;
+                            max-width: 500px;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .content{
+                        flex: 2px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        h1{
+                            font-size: 30px;
+                        }
+
+                        p{
+                            margin-top: 20px;
+                            font-size: 15px;
+                        }
+
+                        button{
+                            margin-top: 20px;
+                            padding: 15px 30px;
+                            border-color: #e2f3ea00;
+                            font-size: 18px;
+                            background-color: rgba(84, 100, 160, 0.747);
+                            cursor: pointer;
+                            border-radius: 3rem;
+                            color:#320E3B;
+
+                            &:hover{
+                                background-color:#E2F3EA;
+                                border-color: rgba(84, 100, 160, 0.747);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
