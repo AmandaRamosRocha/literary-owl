@@ -3,10 +3,9 @@
     display: flex;
     justify-content: center;
 
-
     .container{
         width: 90%;
-
+        background-color: #E2F3EA;
         .link{
             text-decoration: none;
             color: inherit;
@@ -81,22 +80,33 @@
             display: flex;
             justify-content: center;
             background: rgb(84,101,160);
+            padding: 5px 5px;
             .container{
-                padding: 5px 0px;   
+                padding: 5px 5px;   
                 display: flex;
                 justify-content: space-between;
+                background: rgb(84,101,160);
 
-                .logo{
-                    background-color: rgba(240, 248, 255, 0.623);
-                    width: 75px;
-                    height: 75px;
-                    border-radius: 50%;
+                .logoName{
                     display: flex;
                     justify-content: center;
-                    img{
-                        width: 50px;
+                    .logo{
+                        background-color: rgba(240, 248, 255, 0.623);
+                        width: 75px;
+                        height: 75px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content:center;
+                        img{
+                            width: 50px;
+                        }
                     }
-                }
+                    .blogName{
+                        margin-top: 3vh;
+                        font-size: 20px;
+                        font-family:cursive;
+                    }
+                }    
                 .categories{
                         display: flex;
                         align-items: center;
@@ -130,4 +140,5 @@
             font-family: monospace;
         }
     }
+
 }
