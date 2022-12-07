@@ -97,18 +97,25 @@
                         width: 50px;
                     }
                 }
-                .links{
+                .categories{
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+
+                        h6{
+                            font-weight: 600;
+                            font-size: 20px;
+                        }
+                }
+                .profile{
                     display: flex;
                     align-items: center;
-                    gap: 10px;
+                    gap: 15px;
                 }
                 .link{
                     cursor: pointer;
                 }
-                h6{
-                    font-size: 16px;
-                    font-weight: 300;
-                }
+
             }
         }
         

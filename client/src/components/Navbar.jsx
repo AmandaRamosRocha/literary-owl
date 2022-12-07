@@ -7,10 +7,12 @@ const Navbar = () => {
     <div className='navbar'>
         <div className='container'>
             <div className='logo'><img src={Logo} alt="" /></div>
-            <div className='links'>
+            <div className='categories'>
               <Link className='link' to='/?cat=terror' ><h6>Terror</h6></Link>
               <Link className='link' to='/?cat=romance'><h6>Romance</h6></Link>
               <Link className='link'to='/?cat=fantasia'><h6>Fantasia</h6></Link>
+              </div>
+              <div className='profile'>
               <span>Usuário</span>
               <span>Logout</span>
               <Link className='link' to='/write'>Write</Link>
