@@ -238,7 +238,35 @@
                     span{
                         font-weight: bold;
                     }
-                    
+                }
+
+                .info{
+                    p{
+                        margin-top: 0;
+                    }
+                }
+
+                .edit{
+                    display: flex;
+                    gap: 5px;
+
+                    p{
+                        padding-top: 7px;
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                    }
+                }
+
+                h1{
+                    font-size: 42px;
+                    color: #000080;
+                }
+
+                p{
+                    text-align: justify;
+                    line-height: 30px;
+                    margin-top: 10px;
                 }
             }
 
